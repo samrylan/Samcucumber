@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="59.666924">
+<testcase classname="To check the login functionality" name="To check the login functionality with invalid credentials" time="29.988338">
+<system-out><![CDATA[Given user has to be in the login page......................................passed
+When user has to enter the "samrylan" and enter the "Z98EIO"................passed
+And user has to click the login button......................................passed
+Then user cant navigate to the home page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the login functionality" name="To check the login functionality without passing credentials" time="15.547591">
+<system-out><![CDATA[Given user has to be in the login page......................................passed
+When user has to click the login button.....................................passed
+Then user cant navigate to the home page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the search functionality" name="To search the product" time="14.130995">
+<system-out><![CDATA[Given user has to be in the snapdeal page...................................passed
+When user has to search the product1 and product2...........................passed
+When user has to click the search the search button.........................passed
+Then product will appear....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

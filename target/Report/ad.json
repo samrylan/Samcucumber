@@ -1,0 +1,349 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12012485200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to be in the login page",
+            "match": {
+              "location": "StepDefination.user_has_to_be_in_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-07T17:22:05.322Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8057190100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.bc()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To check the login functionality with invalid credentials",
+        "description": "",
+        "id": "to-check-the-login-functionality;to-check-the-login-functionality-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3038200700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.acf(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1887323100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has to enter the \"samrylan\" and enter the \"Z98EIO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samrylan\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Z98EIO\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefination.user_has_to_enter_the_and_enter_the(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4790744300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user has to click the login button",
+            "match": {
+              "location": "StepDefination.user_has_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 793200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user cant navigate to the home page",
+            "match": {
+              "location": "StepDefination.user_cant_navigate_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9659257500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to be in the login page",
+            "match": {
+              "location": "StepDefination.user_has_to_be_in_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-07T17:22:35.317Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3751744200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.bc()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To check the login functionality without passing credentials",
+        "description": "",
+        "id": "to-check-the-login-functionality;to-check-the-login-functionality-without-passing-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1989429900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.acf(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135879400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user has to click the login button",
+            "match": {
+              "location": "StepDefination.user_has_to_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 923600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user cant navigate to the home page",
+            "match": {
+              "location": "StepDefination.user_cant_navigate_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To check the login functionality",
+    "description": "",
+    "id": "to-check-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-07T17:22:50.870Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2544565900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.bc()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To search the product",
+        "description": "",
+        "id": "to-check-the-search-functionality;to-search-the-product",
+        "after": [
+          {
+            "result": {
+              "duration": 2903887400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.acf(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6505784500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to be in the snapdeal page",
+            "match": {
+              "location": "Snapdeal.user_has_to_be_in_the_snapdeal_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 749148800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has to search the product1 and product2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 30
+                },
+                {
+                  "val": "2",
+                  "offset": 43
+                }
+              ],
+              "location": "Snapdeal.user_has_to_search_the_product_and_product(Integer,Integer,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "product1",
+                  "powerbank"
+                ]
+              },
+              {
+                "cells": [
+                  "product2",
+                  "earphone"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1403584600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user has to click the search the search button",
+            "match": {
+              "location": "Snapdeal.user_has_to_click_the_search_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 827700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "product will appear",
+            "match": {
+              "location": "Snapdeal.product_will_appear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "To check the search functionality",
+    "description": "",
+    "id": "to-check-the-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:Snapdeal.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
